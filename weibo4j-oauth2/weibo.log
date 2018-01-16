@@ -1,0 +1,245 @@
+2791 DEBUG [2017-09-23 21:13:15]  http-outgoing-0 << DPOOL_HEADER: dryad25
+2791 DEBUG [2017-09-23 21:13:15]  http-outgoing-0 << SINA-LB:aGEuMjM2LmcxLnF4Zy5sYi5zaW5hbm9kZS5jb20=
+2791 DEBUG [2017-09-23 21:13:15]  http-outgoing-0 << SINA-TS:ZThjYTk0Y2UgMCAwIDAgMTYgNTM3Cg==
+2791 DEBUG [2017-09-23 21:13:15]  http-outgoing-0 [ACTIVE(1197)] Response received
+2791 DEBUG [2017-09-23 21:13:15]  [exchange: 1] Response received HTTP/1.1 200 OK
+2825 DEBUG [2017-09-23 21:13:15]  Cookie accepted [SCF="Anjrih-1RAq0LjpF9XRAINb6gSoCCcXLsvFN52FXJVTXldsrlFxAfXD97bG1Vnk2_25ZiZ_k26HR4pABdZ161R4.", version:0, domain:sina.com.cn, path:/, expiry:Tue Sep 21 21:13:14 CST 2027]
+2825 DEBUG [2017-09-23 21:13:15]  Cookie accepted [tgc="TGT-NTYwNTcwNTkwOA==-1506172395-gz-8700D7D9FC7174314E3241252A75BAFC-1", version:0, domain:login.sina.com.cn, path:/, expiry:null]
+2825 DEBUG [2017-09-23 21:13:15]  Cookie accepted [SUB="_2A250wi27DeRhGeNI61cW8CvFyzSIHXVXthhzrDV_PUNbm9BeLVXGkW91MDp--eVJYqGpOpQuEkzOWAY3MA..", version:0, domain:sina.com.cn, path:/, expiry:null]
+2829 DEBUG [2017-09-23 21:13:15]  Cookie accepted [SUBP="0033WrSXqPxfM725Ws9jqgMF55529P9D9WhIceF6X7CnuQ5DwCAlJu4Z5NHD95QfSo5fS05f1K5RWs4Dqcj8-svbdXet", version:0, domain:sina.com.cn, path:/, expiry:null]
+2829 DEBUG [2017-09-23 21:13:15]  Cookie accepted [ALC="ac%3D0%26bt%3D1506172395%26cv%3D5.0%26et%3D1537708395%26ic%3D2034568172%26scf%3D%26uid%3D5605705908%...", version:0, domain:login.sina.com.cn, path:/, expiry:Sun Sep 23 21:13:15 CST 2018]
+2829 DEBUG [2017-09-23 21:13:15]  Cookie accepted [ALF="1537708395", version:0, domain:sina.com.cn, path:/, expiry:Sun Sep 23 21:13:15 CST 2018]
+2829 DEBUG [2017-09-23 21:13:15]  Cookie accepted [LT="1506172395", version:0, domain:login.sina.com.cn, path:/, expiry:null]
+2829 DEBUG [2017-09-23 21:13:15]  Cookie accepted [sso_info="v02m6alo5qztZCbtomvkLKZtZqWkL2Nk5iwjZOcsI2TpLCOgMDA", version:0, domain:sina.com.cn, path:/, expiry:Sun Sep 23 21:13:15 CST 2018]
+2833 DEBUG [2017-09-23 21:13:15]  http-outgoing-0 [ACTIVE(1197)] Input ready
+2833 DEBUG [2017-09-23 21:13:15]  [exchange: 1] Consume content
+2833 DEBUG [2017-09-23 21:13:15]  http-outgoing-0 192.168.3.5:55347<->58.63.236.212:80[ACTIVE][r:r]: -1 bytes read
+2833 DEBUG [2017-09-23 21:13:15]  http-outgoing-0 192.168.3.5:55347<->58.63.236.212:80[ACTIVE][r:r]: -1 bytes read
+2833 DEBUG [2017-09-23 21:13:15]  http-outgoing-0 192.168.3.5:55347<->58.63.236.212:80[ACTIVE][r:r]: -1 bytes read
+2833 DEBUG [2017-09-23 21:13:15]  [exchange: 1] Connection cannot be kept alive
+2833 DEBUG [2017-09-23 21:13:15]  [exchange: 1] releasing connection
+2833 DEBUG [2017-09-23 21:13:15]  http-outgoing-0 192.168.3.5:55347<->58.63.236.212:80[ACTIVE][r:r]: Remove attribute http.nio.exchange-handler
+2833 DEBUG [2017-09-23 21:13:15]  http-outgoing-0 192.168.3.5:55347<->58.63.236.212:80[ACTIVE][r:r]: Close
+2837 DEBUG [2017-09-23 21:13:15]  [exchange: 1] connection discarded
+2837 DEBUG [2017-09-23 21:13:15]  Releasing connection: [id: http-outgoing-0][route: {}->http://login.sina.com.cn:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2837 DEBUG [2017-09-23 21:13:15]  Connection released: [id: http-outgoing-0][route: {}->http://login.sina.com.cn:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2837 DEBUG [2017-09-23 21:13:15]  [exchange: 1] Response processed
+2837 DEBUG [2017-09-23 21:13:15]  http-outgoing-0 [CLOSED] [chunk-coded; completed: true]
+2837 DEBUG [2017-09-23 21:13:15]  http-outgoing-0 [CLOSED]: Disconnected
+2837 DEBUG [2017-09-23 21:13:15]  Connection manager is shutting down
+2837 DEBUG [2017-09-23 21:13:15]  Connection manager shut down
+2842 DEBUG [2017-09-23 21:13:15]  [exchange: 2] start execution
+2842 DEBUG [2017-09-23 21:13:15]  CookieSpec selected: default
+2842 DEBUG [2017-09-23 21:13:15]  Auth cache not set in the context
+2842 DEBUG [2017-09-23 21:13:15]  [exchange: 2] Request connection for {s}->https://passport.weibo.com:443
+2842 DEBUG [2017-09-23 21:13:15]  Connection request: [route: {s}->https://passport.weibo.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2873 DEBUG [2017-09-23 21:13:15]  Connection manager is shutting down
+2873 DEBUG [2017-09-23 21:13:15]  Connection manager shut down
+2938 DEBUG [2017-09-23 21:13:16]  Connection leased: [id: http-outgoing-1][route: {s}->https://passport.weibo.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2938 DEBUG [2017-09-23 21:13:16]  [exchange: 2] Connection allocated: CPoolProxy{http-outgoing-1 [ACTIVE]}
+2942 DEBUG [2017-09-23 21:13:16]  http-outgoing-1 192.168.3.5:55358<->58.63.236.212:443[ACTIVE][r:]: Set attribute http.nio.exchange-handler
+2942 DEBUG [2017-09-23 21:13:16]  http-outgoing-1 192.168.3.5:55358<->58.63.236.212:443[ACTIVE][rw:]: Event set [w]
+2942 DEBUG [2017-09-23 21:13:16]  http-outgoing-1 192.168.3.5:55358<->58.63.236.212:443[ACTIVE][rw:]: Set timeout 0
+2942 DEBUG [2017-09-23 21:13:16]  http-outgoing-1 [ACTIVE]: Connected
+2942 DEBUG [2017-09-23 21:13:16]  http-outgoing-1 192.168.3.5:55358<->58.63.236.212:443[ACTIVE][rw:]: Set attribute http.nio.http-exchange-state
+2942 DEBUG [2017-09-23 21:13:16]  Start connection routing
+3239 DEBUG [2017-09-23 21:13:16]  http-outgoing-1 Upgrade session 192.168.3.5:55358<->58.63.236.212:443[ACTIVE][rw:][ACTIVE][rw][NEED_UNWRAP][0][0][181][0]
+3239 DEBUG [2017-09-23 21:13:16]  Connection route established
+3239 DEBUG [2017-09-23 21:13:16]  [exchange: 2] Attempt 1 to execute request
+3239 DEBUG [2017-09-23 21:13:16]  Target auth state: UNCHALLENGED
+3239 DEBUG [2017-09-23 21:13:16]  Proxy auth state: UNCHALLENGED
+3239 DEBUG [2017-09-23 21:13:16]  http-outgoing-1 192.168.3.5:55358<->58.63.236.212:443[ACTIVE][rw:][ACTIVE][rw][NEED_UNWRAP][0][0][181][0]: Set timeout 10000
+3239 DEBUG [2017-09-23 21:13:16]  http-outgoing-1 >> POST /wbsso/login?ssosavestate=1537708395&url=http%3A%2F%2Fweibo.com%2Fajaxlogin.php%3Fframelogin%3D1%26callback%3Dparent.sinaSSOController.feedBackUrlCallBack%26sudaref%3Dweibo.com&ticket=ST-NTYwNTcwNTkwOA==-1506172395-gz-D1F0048BC606EEA18BEC0CE40C7C61A7-1&retcode=0 HTTP/1.1
+3239 DEBUG [2017-09-23 21:13:16]  http-outgoing-1 >> Referer: http://login.sina.com.cn/sso/login.php?client=ssologin.js(v1.4.18)
+3239 DEBUG [2017-09-23 21:13:16]  http-outgoing-1 >> User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
+3239 DEBUG [2017-09-23 21:13:16]  http-outgoing-1 >> Content-Length: 0
+3239 DEBUG [2017-09-23 21:13:16]  http-outgoing-1 >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+3239 DEBUG [2017-09-23 21:13:16]  http-outgoing-1 >> Host: passport.weibo.com
+3239 DEBUG [2017-09-23 21:13:16]  http-outgoing-1 >> Connection: Keep-Alive
+3239 DEBUG [2017-09-23 21:13:16]  http-outgoing-1 192.168.3.5:55358<->58.63.236.212:443[ACTIVE][rw:][ACTIVE][rw][NEED_UNWRAP][0][0][181][0]: Event set [w]
+3508 DEBUG [2017-09-23 21:13:16]  http-outgoing-1 [ACTIVE] Output ready
+3508 DEBUG [2017-09-23 21:13:16]  [exchange: 2] produce content
+3508 DEBUG [2017-09-23 21:13:16]  [exchange: 2] Request completed
+3508 DEBUG [2017-09-23 21:13:16]  http-outgoing-1 [ACTIVE] [content length: 0; pos: 0; completed: true]
+3512 DEBUG [2017-09-23 21:13:16]  http-outgoing-1 192.168.3.5:55358<->58.63.236.212:443[ACTIVE][rw:w][ACTIVE][rw][NOT_HANDSHAKING][0][0][645][0]: 618 bytes written
+3512 DEBUG [2017-09-23 21:13:16]  http-outgoing-1 >> "POST /wbsso/login?ssosavestate=1537708395&url=http%3A%2F%2Fweibo.com%2Fajaxlogin.php%3Fframelogin%3D1%26callback%3Dparent.sinaSSOController.feedBackUrlCallBack%26sudaref%3Dweibo.com&ticket=ST-NTYwNTcwNTkwOA==-1506172395-gz-D1F0048BC606EEA18BEC0CE40C7C61A7-1&retcode=0 HTTP/1.1[\r][\n]"
+3512 DEBUG [2017-09-23 21:13:16]  http-outgoing-1 >> "Referer: http://login.sina.com.cn/sso/login.php?client=ssologin.js(v1.4.18)[\r][\n]"
+3512 DEBUG [2017-09-23 21:13:16]  http-outgoing-1 >> "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36[\r][\n]"
+3512 DEBUG [2017-09-23 21:13:16]  http-outgoing-1 >> "Content-Length: 0[\r][\n]"
+3512 DEBUG [2017-09-23 21:13:16]  http-outgoing-1 >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+3512 DEBUG [2017-09-23 21:13:16]  http-outgoing-1 >> "Host: passport.weibo.com[\r][\n]"
+3512 DEBUG [2017-09-23 21:13:16]  http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+3512 DEBUG [2017-09-23 21:13:16]  http-outgoing-1 >> "[\r][\n]"
+3512 DEBUG [2017-09-23 21:13:16]  http-outgoing-1 [ACTIVE] Request ready
+3512 DEBUG [2017-09-23 21:13:16]  http-outgoing-1 192.168.3.5:55358<->58.63.236.212:443[ACTIVE][r:w][ACTIVE][r][NOT_HANDSHAKING][0][0][0][0]: Event cleared [w]
+4009 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 192.168.3.5:55358<->58.63.236.212:443[ACTIVE][r:r][ACTIVE][r][NOT_HANDSHAKING][0][0][0][0]: 1868 bytes read
+4009 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << "HTTP/1.1 302 Moved Temporarily[\r][\n]"
+4009 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << "Server: nginx/1.6.1[\r][\n]"
+4021 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << "Date: Sat, 23 Sep 2017 13:13:16 GMT[\r][\n]"
+4021 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << "Content-Type: text/html[\r][\n]"
+4021 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << "Transfer-Encoding: chunked[\r][\n]"
+4021 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+4021 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << "Pragma: public[\r][\n]"
+4021 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << "Cache-Control: maxage=1[\r][\n]"
+4021 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << "Expires: Sat, 23 Sep 2017 13:13:17 GMT[\r][\n]"
+4021 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << "Set-Cookie: SCF=Anjrih-1RAq0LjpF9XRAINb6gSoCCcXLsvFN52FXJVTXWM1LgM0EFVVmSYJ5exmz99Mq512FvXusd6QVoKykrJQ.; expires=Tuesday, 21-Sep-2027 13:13:16 GMT; path=/; domain=.weibo.com; httponly[\r][\n]"
+4022 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << "Set-Cookie: SUB=_2A250wi28DeRhGeNI61cW8CvFyzSIHXVXthh0rDV8PUNbmtBeLXHXkW9GadZmdlrXIFfvQRrEBYtjSOKL6w..; Path=/; Domain=.weibo.com; HttpOnly[\r][\n]"
+4022 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << "Set-Cookie: SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9WhIceF6X7CnuQ5DwCAlJu4Z5JpX5K2hUgL.Fo-ceh-Neh-4ehn2dJLoI7HBdciaB7tt; expires=Sunday, 23-Sep-2018 13:13:16 GMT; path=/; domain=.weibo.com[\r][\n]"
+4022 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << "Set-Cookie: SUHB=0cSnVsnfKqMpHs; expires=Sunday, 23-Sep-2018 13:13:16 GMT; path=/; domain=.weibo.com[\r][\n]"
+4022 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << "Set-Cookie: SRT=D.QqHBJZ4nW-!pKmMb4cYGS4uHiZEZPqYDW!Su5biHNEYddGMfTDBpMERt4EPKRcsrAcPJdmYRTsVuM-E!dcs!UGHRN4ScWbENV!PCdQMg4ryIODS3I8t7*B.vAflW-P9Rc0lR-ykSDvnJqiQVbiRVPBtS!r3JZPQVqbgVdWiMZ4siOzu4DbmKPWfNdibMZSRirilWPmsMGWDAdo1WOMTi49ndDPIJcYPSrnlMc0kR-PfI4ubTCrrSdYlJcM1OFyHirYCSFi9R4z3WGA7; expires=Tuesday, 21-Sep-2027 13:13:16 GMT; path=/; domain=.passport.weibo.com; httponly[\r][\n]"
+4022 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << "Set-Cookie: SRF=1506172396; expires=Tuesday, 21-Sep-2027 13:13:16 GMT; path=/; domain=.passport.weibo.com[\r][\n]"
+4022 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << "Set-Cookie: ALF=1537708395; expires=Sun, 23-Sep-2018 13:13:15 GMT; Max-Age=31535999; path=/; domain=.weibo.com[\r][\n]"
+4022 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << "Set-Cookie: SSOLoginState=1506172396; path=/; domain=.weibo.com[\r][\n]"
+4022 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << "P3P: CP="CURa ADMa DEVa PSAo PSDo OUR BUS UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"[\r][\n]"
+4022 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << "Location: http://weibo.com/ajaxlogin.php?framelogin=1&callback=parent.sinaSSOController.feedBackUrlCallBack&sudaref=weibo.com[\r][\n]"
+4022 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << "DPOOL_HEADER: dryad61[\r][\n]"
+4022 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << "SINA-LB: aGEuMjM2LmcxLnF4Zy5sYi5zaW5hbm9kZS5jb20=[\r][\n]"
+4022 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << "SINA-TS: Y2NjYTk0Y2UgMCAwIDAgNyA0NTIK[\r][\n]"
+4022 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << "[\r][\n]"
+4022 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << "0[\r][\n]"
+4022 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << "[\r][\n]"
+4022 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << HTTP/1.1 302 Moved Temporarily
+4022 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << Server: nginx/1.6.1
+4022 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << Date: Sat, 23 Sep 2017 13:13:16 GMT
+4022 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << Content-Type: text/html
+4022 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << Transfer-Encoding: chunked
+4022 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << Connection: keep-alive
+4022 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << Pragma: public
+4022 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << Cache-Control: maxage=1
+4022 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << Expires: Sat, 23 Sep 2017 13:13:17 GMT
+4022 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << Set-Cookie: SCF=Anjrih-1RAq0LjpF9XRAINb6gSoCCcXLsvFN52FXJVTXWM1LgM0EFVVmSYJ5exmz99Mq512FvXusd6QVoKykrJQ.; expires=Tuesday, 21-Sep-2027 13:13:16 GMT; path=/; domain=.weibo.com; httponly
+4022 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << Set-Cookie: SUB=_2A250wi28DeRhGeNI61cW8CvFyzSIHXVXthh0rDV8PUNbmtBeLXHXkW9GadZmdlrXIFfvQRrEBYtjSOKL6w..; Path=/; Domain=.weibo.com; HttpOnly
+4022 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << Set-Cookie: SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9WhIceF6X7CnuQ5DwCAlJu4Z5JpX5K2hUgL.Fo-ceh-Neh-4ehn2dJLoI7HBdciaB7tt; expires=Sunday, 23-Sep-2018 13:13:16 GMT; path=/; domain=.weibo.com
+4022 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << Set-Cookie: SUHB=0cSnVsnfKqMpHs; expires=Sunday, 23-Sep-2018 13:13:16 GMT; path=/; domain=.weibo.com
+4022 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << Set-Cookie: SRT=D.QqHBJZ4nW-!pKmMb4cYGS4uHiZEZPqYDW!Su5biHNEYddGMfTDBpMERt4EPKRcsrAcPJdmYRTsVuM-E!dcs!UGHRN4ScWbENV!PCdQMg4ryIODS3I8t7*B.vAflW-P9Rc0lR-ykSDvnJqiQVbiRVPBtS!r3JZPQVqbgVdWiMZ4siOzu4DbmKPWfNdibMZSRirilWPmsMGWDAdo1WOMTi49ndDPIJcYPSrnlMc0kR-PfI4ubTCrrSdYlJcM1OFyHirYCSFi9R4z3WGA7; expires=Tuesday, 21-Sep-2027 13:13:16 GMT; path=/; domain=.passport.weibo.com; httponly
+4022 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << Set-Cookie: SRF=1506172396; expires=Tuesday, 21-Sep-2027 13:13:16 GMT; path=/; domain=.passport.weibo.com
+4022 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << Set-Cookie: ALF=1537708395; expires=Sun, 23-Sep-2018 13:13:15 GMT; Max-Age=31535999; path=/; domain=.weibo.com
+4022 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << Set-Cookie: SSOLoginState=1506172396; path=/; domain=.weibo.com
+4022 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << P3P: CP="CURa ADMa DEVa PSAo PSDo OUR BUS UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR"
+4022 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << Location: http://weibo.com/ajaxlogin.php?framelogin=1&callback=parent.sinaSSOController.feedBackUrlCallBack&sudaref=weibo.com
+4022 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << DPOOL_HEADER: dryad61
+4022 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << SINA-LB: aGEuMjM2LmcxLnF4Zy5sYi5zaW5hbm9kZS5jb20=
+4022 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 << SINA-TS: Y2NjYTk0Y2UgMCAwIDAgNyA0NTIK
+4022 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 [ACTIVE(5)] Response received
+4022 DEBUG [2017-09-23 21:13:17]  [exchange: 2] Response received HTTP/1.1 302 Moved Temporarily
+4029 DEBUG [2017-09-23 21:13:17]  Cookie accepted [SCF="Anjrih-1RAq0LjpF9XRAINb6gSoCCcXLsvFN52FXJVTXWM1LgM0EFVVmSYJ5exmz99Mq512FvXusd6QVoKykrJQ.", version:0, domain:weibo.com, path:/, expiry:Tue Sep 21 21:13:16 CST 2027]
+4029 DEBUG [2017-09-23 21:13:17]  Cookie accepted [SUB="_2A250wi28DeRhGeNI61cW8CvFyzSIHXVXthh0rDV8PUNbmtBeLXHXkW9GadZmdlrXIFfvQRrEBYtjSOKL6w..", version:0, domain:weibo.com, path:/, expiry:null]
+4029 DEBUG [2017-09-23 21:13:17]  Cookie accepted [SUBP="0033WrSXqPxfM725Ws9jqgMF55529P9D9WhIceF6X7CnuQ5DwCAlJu4Z5JpX5K2hUgL.Fo-ceh-Neh-4ehn2dJLoI7HBdciaB7tt", version:0, domain:weibo.com, path:/, expiry:Sun Sep 23 21:13:16 CST 2018]
+4029 DEBUG [2017-09-23 21:13:17]  Cookie accepted [SUHB="0cSnVsnfKqMpHs", version:0, domain:weibo.com, path:/, expiry:Sun Sep 23 21:13:16 CST 2018]
+4029 DEBUG [2017-09-23 21:13:17]  Cookie accepted [SRT="D.QqHBJZ4nW-!pKmMb4cYGS4uHiZEZPqYDW!Su5biHNEYddGMfTDBpMERt4EPKRcsrAcPJdmYRTsVuM-E!dcs!UGHRN4ScWbENV!...", version:0, domain:passport.weibo.com, path:/, expiry:Tue Sep 21 21:13:16 CST 2027]
+4029 DEBUG [2017-09-23 21:13:17]  Cookie accepted [SRF="1506172396", version:0, domain:passport.weibo.com, path:/, expiry:Tue Sep 21 21:13:16 CST 2027]
+4029 DEBUG [2017-09-23 21:13:17]  Cookie accepted [ALF="1537708395", version:0, domain:weibo.com, path:/, expiry:Sun Sep 23 21:13:15 CST 2018]
+4029 DEBUG [2017-09-23 21:13:17]  Cookie accepted [SSOLoginState="1506172396", version:0, domain:weibo.com, path:/, expiry:null]
+4029 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 [ACTIVE(5)] Input ready
+4033 DEBUG [2017-09-23 21:13:17]  [exchange: 2] Consume content
+4033 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 192.168.3.5:55358<->58.63.236.212:443[ACTIVE][r:r][ACTIVE][r][NOT_HANDSHAKING][0][0][0][0]: 0 bytes read
+4033 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 192.168.3.5:55358<->58.63.236.212:443[ACTIVE][r:r][ACTIVE][r][NOT_HANDSHAKING][0][0][0][0]: 0 bytes read
+4033 DEBUG [2017-09-23 21:13:17]  [exchange: 2] Connection can be kept alive indefinitely
+4033 DEBUG [2017-09-23 21:13:17]  [exchange: 2] Response processed
+4033 DEBUG [2017-09-23 21:13:17]  [exchange: 2] releasing connection
+4033 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 192.168.3.5:55358<->58.63.236.212:443[ACTIVE][r:r][ACTIVE][r][NOT_HANDSHAKING][0][0][0][0]: Remove attribute http.nio.exchange-handler
+4033 DEBUG [2017-09-23 21:13:17]  Releasing connection: [id: http-outgoing-1][route: {s}->https://passport.weibo.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+4033 DEBUG [2017-09-23 21:13:17]  Connection [id: http-outgoing-1][route: {s}->https://passport.weibo.com:443] can be kept alive indefinitely
+4033 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 192.168.3.5:55358<->58.63.236.212:443[ACTIVE][r:r][ACTIVE][r][NOT_HANDSHAKING][0][0][0][0]: Set timeout 0
+4033 DEBUG [2017-09-23 21:13:17]  Connection released: [id: http-outgoing-1][route: {s}->https://passport.weibo.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+4033 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 [ACTIVE] [chunk-coded; completed: true]
+4033 DEBUG [2017-09-23 21:13:17]  Connection manager is shutting down
+4033 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 192.168.3.5:55358<->58.63.236.212:443[ACTIVE][r:r][ACTIVE][r][NOT_HANDSHAKING][0][0][0][0]: Close
+4037 DEBUG [2017-09-23 21:13:17]  http-outgoing-1 [CLOSED]: Disconnected
+4037 DEBUG [2017-09-23 21:13:17]  Connection manager shut down
+4154 DEBUG [2017-09-23 21:13:17]  [exchange: 3] start execution
+4154 DEBUG [2017-09-23 21:13:17]  CookieSpec selected: default
+4154 DEBUG [2017-09-23 21:13:17]  Auth cache not set in the context
+4154 DEBUG [2017-09-23 21:13:17]  [exchange: 3] Request connection for {s}->https://api.weibo.com:443
+4154 DEBUG [2017-09-23 21:13:17]  Connection request: [route: {s}->https://api.weibo.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+4196 DEBUG [2017-09-23 21:13:17]  Connection leased: [id: http-outgoing-2][route: {s}->https://api.weibo.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+4196 DEBUG [2017-09-23 21:13:17]  [exchange: 3] Connection allocated: CPoolProxy{http-outgoing-2 [ACTIVE]}
+4196 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 192.168.3.5:55369<->180.149.135.230:443[ACTIVE][r:]: Set attribute http.nio.exchange-handler
+4197 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 192.168.3.5:55369<->180.149.135.230:443[ACTIVE][rw:]: Event set [w]
+4197 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 192.168.3.5:55369<->180.149.135.230:443[ACTIVE][rw:]: Set timeout 0
+4197 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 [ACTIVE]: Connected
+4197 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 192.168.3.5:55369<->180.149.135.230:443[ACTIVE][rw:]: Set attribute http.nio.http-exchange-state
+4197 DEBUG [2017-09-23 21:13:17]  Start connection routing
+4202 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 Upgrade session 192.168.3.5:55369<->180.149.135.230:443[ACTIVE][rw:][ACTIVE][rw][NEED_UNWRAP][0][0][176][0]
+4202 DEBUG [2017-09-23 21:13:17]  Connection route established
+4202 DEBUG [2017-09-23 21:13:17]  [exchange: 3] Attempt 1 to execute request
+4202 DEBUG [2017-09-23 21:13:17]  Target auth state: UNCHALLENGED
+4202 DEBUG [2017-09-23 21:13:17]  Proxy auth state: UNCHALLENGED
+4202 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 >> POST /oauth2/authorize?client_id=471505374&redirect_uri=http://www.baidu.com&response_type=code HTTP/1.1
+4203 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 >> Cookie: SUB=_2A250wi28DeRhGeNI61cW8CvFyzSIHXVXthh0rDV8PUNbmtBeLXHXkW9GadZmdlrXIFfvQRrEBYtjSOKL6w..; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9WhIceF6X7CnuQ5DwCAlJu4Z5JpX5K2hUgL.Fo-ceh-Neh-4ehn2dJLoI7HBdciaB7tt; SSOLoginState=1506172396
+4203 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 >> X-Requested-With: ShockwaveFlash/18.0.0.232
+4203 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 >> Referer: http://js.t.sinajs.cn/t6/home/static/swf/MultiFilesUpload.swf?version=b0b4d2d947d7e5ca
+4203 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 >> User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36
+4203 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 >> Content-Type: application/octet-stream
+4203 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 >> Accept: */*
+4203 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 >> Content-Length: 0
+4203 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 >> Host: api.weibo.com
+4203 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 >> Connection: Keep-Alive
+4204 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 192.168.3.5:55369<->180.149.135.230:443[ACTIVE][rw:][ACTIVE][rw][NEED_UNWRAP][0][0][176][0]: Event set [w]
+4204 DEBUG [2017-09-23 21:13:17]  [exchange: 3] Request completed
+4263 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 192.168.3.5:55369<->180.149.135.230:443[ACTIVE][rw:w][ACTIVE][rw][NOT_HANDSHAKING][0][0][757][0]: 727 bytes written
+4263 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 >> "POST /oauth2/authorize?client_id=471505374&redirect_uri=http://www.baidu.com&response_type=code HTTP/1.1[\r][\n]"
+4263 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 >> "Cookie: SUB=_2A250wi28DeRhGeNI61cW8CvFyzSIHXVXthh0rDV8PUNbmtBeLXHXkW9GadZmdlrXIFfvQRrEBYtjSOKL6w..; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9WhIceF6X7CnuQ5DwCAlJu4Z5JpX5K2hUgL.Fo-ceh-Neh-4ehn2dJLoI7HBdciaB7tt; SSOLoginState=1506172396[\r][\n]"
+4263 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 >> "X-Requested-With: ShockwaveFlash/18.0.0.232[\r][\n]"
+4263 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 >> "Referer: http://js.t.sinajs.cn/t6/home/static/swf/MultiFilesUpload.swf?version=b0b4d2d947d7e5ca[\r][\n]"
+4263 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 >> "User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.93 Safari/537.36[\r][\n]"
+4263 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 >> "Content-Type: application/octet-stream[\r][\n]"
+4264 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 >> "Accept: */*[\r][\n]"
+4264 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 >> "Content-Length: 0[\r][\n]"
+4264 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 >> "Host: api.weibo.com[\r][\n]"
+4264 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+4264 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 >> "[\r][\n]"
+4264 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 [ACTIVE] Request ready
+4264 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 192.168.3.5:55369<->180.149.135.230:443[ACTIVE][r:w][ACTIVE][r][NOT_HANDSHAKING][0][0][0][0]: Event cleared [w]
+4344 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 192.168.3.5:55369<->180.149.135.230:443[ACTIVE][r:r][ACTIVE][r][NOT_HANDSHAKING][0][0][0][0]: 276 bytes read
+4344 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 << "HTTP/1.1 302 Found[\r][\n]"
+4344 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 << "Server: nginx/1.6.1[\r][\n]"
+4345 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 << "Date: Sat, 23 Sep 2017 13:13:16 GMT[\r][\n]"
+4345 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 << "Content-Length: 0[\r][\n]"
+4345 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 << "Connection: keep-alive[\r][\n]"
+4345 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 << "Pragma: No-cache[\r][\n]"
+4345 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 << "Cache-Control: no-cache[\r][\n]"
+4345 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 << "Expires: Thu, 01 Jan 1970 00:00:00 GMT[\r][\n]"
+4345 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 << "Location: http://www.baidu.com?code=4c19bf4cef62d99dc49df699de895fb7[\r][\n]"
+4345 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 << "[\r][\n]"
+4347 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 << HTTP/1.1 302 Found
+4347 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 << Server: nginx/1.6.1
+4347 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 << Date: Sat, 23 Sep 2017 13:13:16 GMT
+4347 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 << Content-Length: 0
+4347 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 << Connection: keep-alive
+4347 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 << Pragma: No-cache
+4347 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 << Cache-Control: no-cache
+4347 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 << Expires: Thu, 01 Jan 1970 00:00:00 GMT
+4348 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 << Location: http://www.baidu.com?code=4c19bf4cef62d99dc49df699de895fb7
+4348 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 [ACTIVE] Response received
+4348 DEBUG [2017-09-23 21:13:17]  [exchange: 3] Response received HTTP/1.1 302 Found
+4348 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 [ACTIVE] Input ready
+4348 DEBUG [2017-09-23 21:13:17]  [exchange: 3] Consume content
+4348 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 192.168.3.5:55369<->180.149.135.230:443[ACTIVE][r:r][ACTIVE][r][NOT_HANDSHAKING][0][0][0][0]: 0 bytes read
+4348 DEBUG [2017-09-23 21:13:17]  [exchange: 3] Connection can be kept alive indefinitely
+4349 DEBUG [2017-09-23 21:13:17]  [exchange: 3] Response processed
+4349 DEBUG [2017-09-23 21:13:17]  [exchange: 3] releasing connection
+4349 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 192.168.3.5:55369<->180.149.135.230:443[ACTIVE][r:r][ACTIVE][r][NOT_HANDSHAKING][0][0][0][0]: Remove attribute http.nio.exchange-handler
+4349 DEBUG [2017-09-23 21:13:17]  Releasing connection: [id: http-outgoing-2][route: {s}->https://api.weibo.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+4349 DEBUG [2017-09-23 21:13:17]  Connection [id: http-outgoing-2][route: {s}->https://api.weibo.com:443] can be kept alive indefinitely
+4349 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 192.168.3.5:55369<->180.149.135.230:443[ACTIVE][r:r][ACTIVE][r][NOT_HANDSHAKING][0][0][0][0]: Set timeout 0
+4349 DEBUG [2017-09-23 21:13:17]  Connection released: [id: http-outgoing-2][route: {s}->https://api.weibo.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+4349 DEBUG [2017-09-23 21:13:17]  Connection manager is shutting down
+4349 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 [ACTIVE] [content length: 0; pos: 0; completed: true]
+4350 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 192.168.3.5:55369<->180.149.135.230:443[ACTIVE][r:r][ACTIVE][r][NOT_HANDSHAKING][0][0][0][0]: Close
+4351 DEBUG [2017-09-23 21:13:17]  http-outgoing-2 [CLOSED]: Disconnected
+4353 DEBUG [2017-09-23 21:13:17]  Connection manager shut down
+4390 DEBUG [2017-09-23 21:13:17]  Request:
+4390 DEBUG [2017-09-23 21:13:17]  POSThttps://api.weibo.com/oauth2/access_token
+4614 DEBUG [2017-09-23 21:13:17]  Response:
+4615 DEBUG [2017-09-23 21:13:17]  https StatusCode:200
+4615 DEBUG [2017-09-23 21:13:17]  Server:nginx/1.6.1
+4615 DEBUG [2017-09-23 21:13:17]  Date:Sat, 23 Sep 2017 13:13:17 GMT
+4615 DEBUG [2017-09-23 21:13:17]  Content-Type:application/json;charset=UTF-8
+4615 DEBUG [2017-09-23 21:13:17]  Content-Length:137
+4615 DEBUG [2017-09-23 21:13:17]  Connection:keep-alive
+4615 DEBUG [2017-09-23 21:13:17]  Pragma:No-cache
+4615 DEBUG [2017-09-23 21:13:17]  Cache-Control:no-cache
+4615 DEBUG [2017-09-23 21:13:17]  Expires:Thu, 01 Jan 1970 00:00:00 GMT
+4636 DEBUG [2017-09-23 21:13:17]  {"access_token":"2.007Ly3HG05F5uV13c9398b267hREcC","remind_in":"157679999","expires_in":157679999,"uid":"5605705908","isRealName":"true"}
+
