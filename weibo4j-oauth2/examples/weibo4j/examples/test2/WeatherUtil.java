@@ -35,6 +35,10 @@ public class WeatherUtil {
 	private static String high; //
 	private static String low; //
 	private static String text_day; //
+	private static String wind_direction; //
+	private static String date; //
+	private static String text_night; //
+	private static String wind_scale; //
 	
 
 	/**
@@ -110,10 +114,18 @@ public class WeatherUtil {
 			high =js.get("high").toString();//状态码
 			low =js.get("low").toString();//状态码
 			text_day =js.get("text_day").toString();//状态码
+			wind_direction =js.get("wind_direction").toString();//状态码
+			date =js.get("date").toString();//状态码
+			text_night =js.get("text_night").toString();//状态码
+			wind_scale =js.get("wind_scale").toString();//状态码
 			map.put("code", code);
 			map.put("high", high);
 			map.put("low", low);
 			map.put("text_day", text_day);
+			map.put("wind_direction", wind_direction);
+			map.put("date", date);
+			map.put("text_night", text_night);
+			map.put("wind_scale", wind_scale);
 			js= new JSONObject(lo);
 			lo = js.getString("name").toString();//地址
 			map.put("lo", lo);

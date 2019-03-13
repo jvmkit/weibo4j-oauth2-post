@@ -46,7 +46,7 @@ public class UpdateStatus {
 		 * httpPost.setHeader("Connection","keep-alive");
 		 */
 		Map<String, String> map = WeatherUtil.getWeather();
-		ChartGraphics.imgFactory(map.get("code"));
+		ChartGraphics.imgFactory(map);
 		MultipartEntity mutiEntity = new MultipartEntity();
 		File file = new File(WeiboConfig.getValue("upImgPath"));
 		mutiEntity.addPart("access_token", new StringBody(access_token));

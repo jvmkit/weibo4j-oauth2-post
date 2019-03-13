@@ -39,9 +39,21 @@ public class test {
 //	       System.out.println(code);
 		
 		
-		login.Login();
+//		login.Login();
+//		HtmlImageGenerator imageGenerator = new HtmlImageGenerator();
+//		
+//		
+//		  String htmlstr = "<html>	<body>		<table>			<tr>				<td>				<img src=\"F:/3d_180/0.png\" />				</td>			</tr>			<tr>				<td style=\"text-align: center;\">					<font  color=\"chartreuse\">我们的1000天</font>				</td>			</tr>		</table>	</body></html>";  
+//	        imageGenerator.loadHtml(htmlstr);  
+//	        imageGenerator.getBufferedImage();  
+//	        imageGenerator.saveAsImage("d:/hello-world.png");  
+//	        imageGenerator.saveAsHtmlWithMap("hello-world.html", "hello-world.png"); 
+//		Map<String, String> map = WeatherUtil.getWeather();
+//		ChartGraphics.imgFactory(map);
 		
 //		
+		login.Login();
+		
 //		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");  
 //	    Date date = sdf.parse("2015-05-22");  
 //	    Date date2 = new Date();

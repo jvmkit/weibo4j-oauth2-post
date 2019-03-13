@@ -23,6 +23,9 @@ public class QuartzStart {
 		delayToken dt = new delayToken();
 		try {
 			System.out.println(returnstr + "【系统启动】");
+			System.out.println("发送微博===========>"+WeiboConfig.getValue("postWbtime"));
+			System.out.println("续命Token===========>"+WeiboConfig.getValue("delayToken"));
+			dt.execute(null);
 			QuartzManager.addJob(post, pt,WeiboConfig.getValue("postWbtime"));
 			QuartzManager.addJob(token, dt,WeiboConfig.getValue("delayToken"));
 

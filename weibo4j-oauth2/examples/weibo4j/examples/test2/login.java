@@ -4,8 +4,6 @@ import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.HttpClient;
-import org.apache.http.impl.client.CloseableHttpClient;
-import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.commons.codec.binary.Base64;
@@ -22,9 +20,9 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.apache.commons.*;
 import org.json.JSONObject;
 
+import sun.misc.BASE64Encoder;
 import weibo4j.Oauth;
 import weibo4j.model.WeiboException;
 import weibo4j.util.WeiboConfig;
@@ -35,6 +33,8 @@ import weibo4j.util.WeiboConfig;
 public class login {
 
     private static HttpClient client;
+//    private static JSONObject cookie = new JSONObject(WeiboConfig.getValue("cookie"));
+    private static JSONObject cookie = null;
     private String username;     //登录帐号(明文)
     private String password;     //登录密码(明文)
     private String su;            //登录帐号(Base64加密)
@@ -92,6 +92,8 @@ public class login {
                 File file = new File(fileName);
                 OutputStream out = new FileOutputStream(file);
                 InputStream inputStream = res.getEntity().getContent();
+                //打印base64字符串
+                System.out.println("data:image/png;base64,"+getImageStr(inputStream));
                 byte b[] = new byte[32 * 1024];
                 int j = 0;
                 while ((j = inputStream.read(b)) != -1) {
@@ -100,10 +102,15 @@ public class login {
                 if (out != null) {
                     out.close();
                 }
-                door = SinaCode.postFile(file);
-                if(door.length()!=5){
-                    door = SinaCode.postFile(file);
-                }
+                //验证码提醒
+                System.out.println("请输入验证码:");
+                Scanner scan = new Scanner(System.in);
+                String read = scan.nextLine();
+                door = read;
+//                door = SinaCode.postFile(file);
+//                if(door.length()!=5){
+//                    door = SinaCode.postFile(file);
+//                }
                 file.delete();
             }
             servertime = json.getLong("servertime");
@@ -626,7 +633,14 @@ public class login {
         //login weibo = new login("rlp390660@sina.cn", "4B1ivdq92b30");
         //login weibo = new login("kva84723526@sina.cn", "EO1iRkiNLBPy");
         //login weibo = new login("15233615992", "rxs1031109920");
-        JSONObject cookie = weibo.login();
+//        String cookie = WeiboConfig.getValue("cookie");
+    	if (cookie==null) {
+//    	登陆方法;由于需要验证码登陆暂时使用cookie登陆
+    		cookie = weibo.login();
+    		System.out.println("cookie=====>>"+cookie);
+		}
+//        cookie = new JSONObject(cookie);
+    	
         Oauth oauth = new Oauth();
         HttpResponse response =    new HttpClien().code(cookie, oauth);
         System.out.println(response);
@@ -659,7 +673,21 @@ public class login {
     }
 
     
-    
+    public  String getImageStr(InputStream inputStream) {
+       // InputStream inputStream = null;
+        byte[] data = null;
+        try {
+            //inputStream = new FileInputStream(imgFile);
+            data = new byte[inputStream.available()];
+            inputStream.read(data);
+            inputStream.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        // 加密
+        BASE64Encoder encoder = new BASE64Encoder();
+        return encoder.encode(data);
+    }
     
 }
 
